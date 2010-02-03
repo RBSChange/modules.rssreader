@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @license
+ Logiciel RBS Change© Société RBS, 2006-2007.
+ Le logiciel ne peut être copié, corrigé, traduit ou modifié sans l'autorisation
+ préalable de l'auteur selon le Code de la Propriété Intellectuelle (http://www.celog.fr/cpi/).
+ Consulter les Dispositions Générales de droit d'exploitation.
+ Tout contrefacteur pourra faire l’objet de poursuites judiciaires par la société RBS, auteur du logiciel.
+ -
+ RBS Change™, © 2006-2007 Ready Business System.
+ This application can not be copied, changed, translated, or modified in any way without
+ prior authorization from RBS, the author of the application, according to the French Code
+ of Intellectual Property (http://www.celog.fr/cpi/). Consult the Code's General Dispositions
+ about rights of use.
+ Any use of this application without prior authorization from RBS will be subject to legal
+ prosecution to the full extent of the law.
+
+ @copyright RBS 2006-2007
+ @date Thu, 12 Jul 2007 17:12:16 +0200
+ @author intessit
+-->
+<!--
+intbonjf 2006-07-20
+Default actions are defined in modules/generic/config/widgets/default.tree.xml.
+Please have a look at this file and do not duplicate actions.
+If you want this widget not to use the default actions, add
+	the "do-not-use-default-actions" attribute in the <behaviour>
+	root element of this file (and set this attribute to "true").
+If you want to remove default actions, just add a '-' (dash)
+	before the name of the actions to remove. Note that the dash
+	must be stuck to the actions name, without space.
+	Ex: "-delete" and not "- delete"
+-->
+<!-- Example of event
+<event type="select contextmenu"
+	target="modules_generic_rootfolder modules_generic_folder"
+	actions="createUsers" />
+-->
+<behaviour allow-toggle="true" label="&amp;modules.uixul.bo.general.Main-tree;">
+  <event type="select contextmenu" target="modules_generic_rootfolder modules_generic_folder" actions="create_ editPermissions"/>
+  <event type="drop" target="modules_generic_rootfolder modules_generic_folder" flavour="listitem/component" source="modules_ressreader_feed" actions="move">
+    <actiongroup name="create_" icon="add" actions="createFeed"/>
+  </event>
+  <datasource module="rssreader" components="folder"/>
+  <columns>
+    <column ref="label" flex="5" label="Module-name" primary="true" properties="type"/>
+  </columns>
+</behaviour>

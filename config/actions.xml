@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<actions extends="generic">
+  <action name="createFeed" label="&amp;modules.rssreader.bo.actions.Create-Feed;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'feed', 'moduleForm');]]></body>
+  </action>
+  <action name="clearRssCache" label="&amp;modules.rssreader.bo.actions.Clear-rss-cache;" global="true" icon="data_delete">
+  	<parameter name="listWidget"/>
+  	<body><![CDATA[
+  		var lang = this.getContextLang(listWidget);
+  		this.execute("%label%","ClearRssCache", {{K::LANG_ACCESSOR}: lang});
+  		alert("&modules.rssreader.bo.actions.Cache-deleted;");
+  	]]></body>
+  </action>
+  <action name="checkFeeds" label="&amp;modules.rssreader.bo.actions.Check-Feeds;" global="true" icon="step_run">
+    <parameter name="listWidget"/>
+    <body><![CDATA[
+    var selectedIds = listWidget.getSelectedIds();
+		var checkedIds = listWidget.getCheckedIds();
+
+		var proceedAll = false;
+		var proceedChecked = false;
+		var proceedSelected = false;
+
+		if ((selectedIds.length == 0) && (checkedIds.length == 0))
+		{
+		    proceedAll = true;
+		}
+		else if ((selectedIds.length == 0) && (checkedIds.length > 0))
+		{
+		    var prompts = Components.classes["@mozilla.org/embedcomp/prompt-service;1"].getService(Components.interfaces.nsIPromptService);
+
+            var check = {value: false};
+
+            var flags = prompts.BUTTON_TITLE_IS_STRING * prompts.BUTTON_POS_0 +
+                        prompts.BUTTON_TITLE_IS_STRING * prompts.BUTTON_POS_1;
+
+            var button = prompts.confirmEx(
+                window,
+                "&amp;modules.rssreader.bo.actions.Check-link-confirm;",
+                "&amp;modules.rssreader.bo.actions.Check-link-confirm-checked-or-all;",
+                flags,
+                "&amp;modules.rssreader.bo.actions.Regenerate-checked;",
+                "&amp;modules.rssreader.bo.actions.Regenerate-all;",
+                null,
+                null,
+                check
+            );
+
+		    switch (button)
+		    {
+		        case 0:
+		            proceedChecked = true;
+		            break;
+
+		        case 1:
+		            proceedAll = true;
+		            break;
+		    }
+		}
+		else if ((selectedIds.length > 0) && (checkedIds.length == 0))
+		{
+		    var prompts = Components.classes["@mozilla.org/embedcomp/prompt-service;1"].getService(Components.interfaces.nsIPromptService);
+
+            var check = {value: false};
+
+            var flags = prompts.BUTTON_TITLE_IS_STRING * prompts.BUTTON_POS_0 +
+                        prompts.BUTTON_TITLE_IS_STRING * prompts.BUTTON_POS_1;
+
+            var button = prompts.confirmEx(
+                window,
+                "&amp;modules.rssreader.bo.actions.Check-link-confirm;",
+                "&amp;modules.rssreader.bo.actions.Check-link-confirm-selected-or-all;",
+                flags,
+                "&amp;modules.rssreader.bo.actions.Regenerate-selected;",
+                "&amp;modules.rssreader.bo.actions.Regenerate-all;",
+                null,
+                null,
+                check
+            );
+
+		    switch (button)
+		    {
+		        case 0:
+		            proceedSelected = true;
+		            break;
+
+		        case 1:
+		            proceedAll = true;
+		            break;
+		    }
+		}
+		else
+		{
+		    var prompts = Components.classes["@mozilla.org/embedcomp/prompt-service;1"].getService(Components.interfaces.nsIPromptService);
+
+            var check = {value: false};
+
+            var flags = prompts.BUTTON_TITLE_IS_STRING * prompts.BUTTON_POS_0 +
+                        prompts.BUTTON_TITLE_IS_STRING * prompts.BUTTON_POS_1 +
+                        prompts.BUTTON_TITLE_IS_STRING * prompts.BUTTON_POS_2;
+
+            var button = prompts.confirmEx(
+                window,
+                "&amp;modules.rssreader.bo.actions.Check-link-confirm;",
+                "&amp;modules.rssreader.bo.actions.Check-link-confirm-checked-or-selected-or-allLabel;",
+                flags,
+                "&amp;modules.rssreader.bo.actions.Regenerate-checked;",
+                "&amp;modules.rssreader.bo.actions.Regenerate-all;",
+                "&amp;modules.rssreader.bo.actions.Regenerate-selected;",
+                null,
+                check
+            );
+
+		    switch (button)
+		    {
+		        case 0:
+		            proceedChecked = true;
+		            break;
+
+		        case 1:
+		            proceedAll = true;
+		            break;
+
+		        case 2:
+		            proceedSelected = true;
+		            break;
+		    }
+		}
+
+		var href = Context.UIBASEURL + "/xul_controller.php?module=rssreader&action=CheckFeeds";
+
+		if (proceedAll)
+		{
+		  if (window.confirm("&amp;modules.rssreader.bo.actions.Check-link-confirm-all;"))
+		  {
+		  	window.open(href,"","height=250,width=450");
+		  }
+		}
+		else
+		{
+			href += "&{K::COMPONENT_ID_ACCESSOR}=";
+			if (proceedChecked)
+			{
+				 href += checkedIds;
+			}
+			else if (proceedSelected)
+			{
+				href += selectedIds;
+			}
+   		window.open(href, "","height=250,width=450");
+		}
+    ]]></body>
+  </action>
+  <action name="createPreferences" label="&amp;modules.rssreader.bo.actions.Create-Preferences;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'preferences', 'moduleForm');]]></body>
+  </action>
+</actions>

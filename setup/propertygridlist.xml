@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/list/persistentdocument/import/list_binding.xml" />
+
+	<staticlist listid="modules_rssreader/richcontent"
+		description="&amp;modules.rssreader.bo.general.toolbar.Rich-content;"
+		label="&amp;modules.rssreader.bo.general.toolbar.Rich-content;">
+		<staticitem value="none" label="&amp;modules.rssreader.bo.blocks.Rich-content-none;" />
+		<staticitem value="low" label="&amp;modules.rssreader.bo.blocks.Rich-content-low;"/>
+		<staticitem value="medium" label="&amp;modules.rssreader.bo.blocks.Rich-content-medium;"/>
+		<staticitem value="high" label="&amp;modules.rssreader.bo.blocks.Rich-content-high;"/>
+	</staticlist>
+</script>

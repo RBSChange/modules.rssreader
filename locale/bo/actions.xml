@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="create_">
+    <locale lang="fr">créer...</locale>
+    <locale lang="en">create...</locale>
+    <locale lang="de">neu...</locale>
+  </entity>
+  <entity id="create-feed">
+    <locale lang="fr">créer un flux</locale>
+    <locale lang="en">create a feed</locale>
+    <locale lang="de">neues Feed</locale>
+  </entity>
+  <entity id="check-feeds">
+    <locale lang="fr">vérifier les flux...</locale>
+    <locale lang="en">check feeds...</locale>
+    <locale lang="de">Feeds prüfen...</locale>
+  </entity>
+  <entity id="clear-rss-cache">
+    <locale lang="fr">vider les caches</locale>
+    <locale lang="en">clear caches</locale>
+    <locale lang="de">Cashes leeren</locale>
+  </entity>
+  <entity id="cache-deleted">
+    <locale lang="fr">les caches ont été vidés</locale>
+    <locale lang="en">the cache was deleted</locale>
+    <locale lang="de">die Cashes wurden geleert</locale>
+  </entity>
+  <entity id="regenerate-checked">
+    <locale lang="fr">les documents cochés</locale>
+    <locale lang="en">checked documents</locale>
+    <locale lang="de">angekreuzte Dokumente</locale>
+  </entity>
+  <entity id="regenerate-selected">
+    <locale lang="fr">les documents sélectionnés</locale>
+    <locale lang="en">selected documents</locale>
+    <locale lang="de">selektierte Dokumente</locale>
+  </entity>
+  <entity id="regenerate-all">
+    <locale lang="fr">tous les documents</locale>
+    <locale lang="en">all documents</locale>
+    <locale lang="de">alle Dokumente</locale>
+  </entity>
+  <entity id="check-link-confirm">
+    <locale lang="fr">confirmation de vérification</locale>
+    <locale lang="en">checking confirmation</locale>
+    <locale lang="de">Prüfungsbestätigung</locale>
+  </entity>
+  <entity id="check-link-confirm-all">
+    <locale lang="fr">voulez-vous vraiment vérifier tous les documents ?</locale>
+    <locale lang="en">do you really want to check all documents ?</locale>
+    <locale lang="de">möchten Sie wirklich alle Dokumente prüfen?</locale>
+  </entity>
+  <entity id="check-link-confirm-checked-or-all">
+    <locale lang="fr">souhaitez-vous vérifier les documents cochés ou tous les documents ?</locale>
+    <locale lang="en">do you want to check the checked documents or all documents ?</locale>
+    <locale lang="de">möchten Sie die angekreuzten oder alle Dokumente prüfen?</locale>
+  </entity>
+  <entity id="check-link-confirm-selected-or-all">
+    <locale lang="fr">souhaitez-vous vérifier les documents sélectionnés ou tous les documents ?</locale>
+    <locale lang="en">do you want to check the selected documents or all documents ?</locale>
+    <locale lang="de">möchten Sie die selektierten oder alle Dokumente prüfen?</locale>
+  </entity>
+  <entity id="check-link-confirm-checked-or-selected-or-all">
+    <locale lang="fr">souhaitez-vous vérifier</locale>
+    <locale lang="en">do you want to check</locale>
+    <locale lang="de">möchten Sie prüfen</locale>
+  </entity>
+</localization>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/generic/persistentdocument/import/generic_binding.xml" />
+	<binding name="preferences" className="rssreader_PreferencesScriptDocumentElement" />
+	<binding name="rssreaderpreferences" className="rssreader_PreferencesScriptDocumentElement" />
+	
+	
+	<binding name="feed" className="rssreader_FeedScriptDocumentElement" />
+</script>

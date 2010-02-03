@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<behaviour>
+	<event type="select contextmenu" target="modules_rssreader_feed" actions="| activate deactivated reactivate"/>
+	<datasource module="rssreader" components="modules_rssreader/feed"/>
+	<columns>
+		<column ref="label" flex="7" label="Label" properties="type" />
+	</columns>
+</behaviour>

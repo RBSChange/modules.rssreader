@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<blocks>
+	<block type="modules_rssreader_feed" display="" hidden="true" icon="" label="">
+		<parameters>
+			<parameter name="richcontent" type="String" default-value="none"
+				min-occurs="1" max-occurs="1" list-id="modules_rssreader/richcontent"/>
+			<parameter name="titleonly" type="Boolean" default-value="false" />
+			<parameter name="openwindow" type="Boolean" default-value="false" />
+			<parameter name="titleonly" type="Boolean" default-value="false" />
+			<parameter name="itemcount" type="Integer" default-value="10" />
+			<parameter name="displayhome" type="Boolean" default-value="false" />
+		</parameters>
+	</block>
+	<block type="modules_rssreader_folder" display="" hidden="true" icon="" label="">
+		<parameters>
+			<parameter name="richcontent" type="String" default-value="none"
+				min-occurs="1" max-occurs="1" list-id="modules_rssreader/richcontent"/>
+			<parameter name="titleonly" type="Boolean" default-value="false" />
+			<parameter name="openwindow" type="Boolean" default-value="false" />
+			<parameter name="titleonly" type="Boolean" default-value="false" />
+			<parameter name="itemcount" type="Integer" default-value="10" />
+			<parameter name="displayhome" type="Boolean" default-value="false" />
+			<parameter name="fusionfeeds" type="Boolean" default-value="false" />
+			<parameter name="foldertitle" type="String" default-value="" />
+		</parameters>
+	</block>
+</blocks>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<behaviour>
+  <event type="select contextmenu" target="modules_generic_rootfolder modules_generic_folder" actions="create_ editPermissions">
+    <actiongroup name="create_" icon="add" actions="createFeed"/>
+  </event>
+  <event type="drop" target="modules_generic_rootfolder modules_generic_folder" flavour="listitem/component" source="modules_rssreader_feed" actions="move"/>
+  <datasource module="rssreader" components="folder"/>
+  <columns>
+    <column ref="label" flex="5" label="Module-name" primary="true" properties="type"/>
+  </columns>
+</behaviour>

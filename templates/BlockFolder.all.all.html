@@ -1,0 +1,17 @@
+<div tal:condition="feedNotPublished" class="feed-not-published" i18n:translate="&modules.rssreader.bo.general.FeedNotPublished;"/>
+<div tal:attributes="class params/classHome">
+	<h2 class="title" tal:content="params/folderTitle"/>
+	<ol class="feedrss">
+		<li tal:repeat="item feed">
+			<h3 class="title">
+				<a class="link" tal:condition="not: params/openWindow" tal:attributes="href item/get_permalink" tal:content="php: f_util_StringUtils::strlen(item->get_title()) > 80 ? f_util_StringUtils::substr(item->get_title(),0,75) . '...' : item->get_title()"/>
+				<a class="link popup" tal:condition="params/openWindow" tal:attributes="href item/get_permalink" tal:content="item/get_title" onclick="return accessiblePopup(this);"/>
+			</h3>
+			<div tal:condition="not: params/titleOnly" tal:omit-tag="">
+				<p tal:condition="item/get_date" tal:content="php: item->get_local_date('%d/%m/%Y - %Hh%M')" class="date-feedrss" />
+				<p tal:condition="backoffice" tal:content="item/get_content_for_backoffice" class="content-feedrss"/>
+				<p tal:condition="not: backoffice" tal:content="item/get_content" class="content-feedrss"/>
+			</div>
+		</li>
+	</ol>
+</div>

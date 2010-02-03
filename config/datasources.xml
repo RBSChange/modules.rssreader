@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<datasources>
+  <datasource module="rssreader" treecomponents="modules_generic/rootfolder,modules_generic/folder" listcomponents="modules_rssreader/feed" label="&amp;modules.rssreader.bo.general.Module-Name;" icon="wrss" />
+  <datasource name="pagecontent" module="rssreader" treecomponents="modules_generic/rootfolder,modules_generic/folder" listcomponents="modules_rssreader/feed" label="&amp;modules.rssreader.bo.general.Module-Name;" icon="wrss" />
+</datasources>

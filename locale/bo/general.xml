@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="module-name">
+    <locale lang="fr">RSS externes</locale>
+    <locale lang="en">external RSS</locale>
+    <locale lang="de">externe RSS</locale>
+  </entity>
+  <entity id="tree-root-name">
+    <locale lang="fr">RSS externes</locale>
+    <locale lang="en">external RSS</locale>
+    <locale lang="de">externe RSS</locale>
+  </entity>
+  <entity id="system-folder-name">
+    <locale lang="fr">RSS externes</locale>
+    <locale lang="en">external RSS</locale>
+    <locale lang="de">externe RSS</locale>
+  </entity>
+  <entity id="toolbar.rich-content">
+    <locale lang="fr">filtrage du contenu :</locale>
+    <locale lang="en">content filter:</locale>
+    <locale lang="de">Filterung des Inhalts:</locale>
+  </entity>
+  <entity id="toolbar.rich-content-high">
+    <locale lang="fr">complet</locale>
+    <locale lang="en">full</locale>
+    <locale lang="de">komplett</locale>
+  </entity>
+  <entity id="toolbar.rich-content-medium">
+    <locale lang="fr">élevé</locale>
+    <locale lang="en">medium</locale>
+    <locale lang="de">mittel</locale>
+  </entity>
+  <entity id="toolbar.rich-content-low">
+    <locale lang="fr">faible</locale>
+    <locale lang="en">low</locale>
+    <locale lang="de">niedrig</locale>
+  </entity>
+  <entity id="toolbar.rich-content-none">
+    <locale lang="fr">aucun</locale>
+    <locale lang="en">none</locale>
+    <locale lang="de">kein</locale>
+  </entity>
+  <entity id="toolbar.display-home">
+    <locale lang="fr">affichage accueil</locale>
+    <locale lang="en">home display</locale>
+    <locale lang="de">Anzeige Startseite</locale>
+  </entity>
+  <entity id="toolbar.title-only">
+    <locale lang="fr">uniquement les titres</locale>
+    <locale lang="en">only titles</locale>
+    <locale lang="de">ausschliesslich die Titel</locale>
+  </entity>
+  <entity id="toolbar.open-window">
+    <locale lang="fr">liens dans une nouvelle fenêtre</locale>
+    <locale lang="en">links in new window</locale>
+    <locale lang="de">Links in neuem Fenster</locale>
+  </entity>
+  <entity id="toolbar.fusion-feeds">
+    <locale lang="fr">fusionner les flux</locale>
+    <locale lang="en">merge feeds</locale>
+    <locale lang="de">Feeds fusionnieren</locale>
+  </entity>
+  <entity id="toolbar.item-count">
+    <locale lang="fr">nombre d'éléments à afficher :</locale>
+    <locale lang="en">number of item to display:</locale>
+    <locale lang="de">Anzahl anzuzeigende Elemente:</locale>
+  </entity>
+  <entity id="toolbar.folder-title">
+    <locale lang="fr">titre du dossier :</locale>
+    <locale lang="en">folder title:</locale>
+    <locale lang="de">Ordnertitel:</locale>
+  </entity>
+  <entity id="FeedNotPublished">
+    <locale lang="fr">ce flux n'est pas publié ou est vide, il ne sera pas visible en frontoffice</locale>
+    <locale lang="en">this feed is not published or is empty, it won't be displayed in frontoffice</locale>
+    <locale lang="de">dieser Feed ist nicht veröffentlicht oder leer, er wird im Frontoffice nicht sichtbar sein</locale>
+  </entity>
+  <entity id="feed.unknow">
+    <locale lang="fr">indéterminé</locale>
+    <locale lang="en">unknow</locale>
+    <locale lang="de">nicht definiert</locale>
+  </entity>
+  <entity id="feed.supported">
+    <locale lang="fr">supporté</locale>
+    <locale lang="en">supported</locale>
+    <locale lang="de">getragen</locale>
+  </entity>
+  <entity id="feed.inexistant">
+    <locale lang="fr">flux inexistant</locale>
+    <locale lang="en">inexistant feed</locale>
+    <locale lang="de">Feed inexistent</locale>
+  </entity>
+  <entity id="feed.warning">
+    <locale lang="fr">avertissement</locale>
+    <locale lang="en">warning</locale>
+    <locale lang="de">Warnung</locale>
+  </entity>
+  <entity id="feed.detail.warning">
+    <locale lang="fr">Flux découvert, le fichier spécifié n'existe pas ou n'est pas valide mais Change a déterminé le flux principal du site demandé.</locale>
+    <locale lang="en">Discovered feed, asked file does not exist or is invalid but Change has found main feed of the website.</locale>
+    <locale lang="de">Gefundener Feed, die spezifizierte Datei ist inexistent oder ungültig, aber Change hat den HauptFeed der angefragten 
+		Seite bestimmt.</locale>
+  </entity>
+  <entity id="feed.detail.inexistant">
+    <locale lang="fr">Flux invalide, le fichier spécifié n'existe pas et le site ne contient pas de flux RSS.</locale>
+    <locale lang="en">Invalid feed, file does not exist and website has not RSS feed.</locale>
+    <locale lang="de">Ungültiger Feed, die spezifizierte Datei ist inexistent oder die Webseite beinhaltet keinen RSS Feed.</locale>
+  </entity>
+  <entity id="not-a-feed">
+    <locale lang="fr">document %d n'est pas un flux !</locale>
+    <locale lang="en">document %d is not a feed !</locale>
+    <locale lang="de">Dokument %d ist kein Feed!</locale>
+  </entity>
+  <entity id="not-display-bo">
+    <locale lang="fr">ce contenu n'est pas affichable en backoffice.</locale>
+    <locale lang="en">this content can't be displayed in backoffice.</locale>
+    <locale lang="de">dieser Inhalt kann nicht im Backoffice angezeigt werden.</locale>
+  </entity>
+</localization>
