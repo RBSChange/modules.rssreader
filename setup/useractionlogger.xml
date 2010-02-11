@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/useractionlogger/persistentdocument/import/useractionlogger_binding.xml" />
+	<actiondef modulename="rssreader" actionname="savepermissions.rootfolder" label="modules.rssreader.bo.useractionlogger.savepermissions-rootfolder" />
+	<actiondef modulename="rssreader" actionname="insert.folder" label="modules.rssreader.bo.useractionlogger.insert-folder" />
+	<actiondef modulename="rssreader" actionname="update.folder" label="modules.rssreader.bo.useractionlogger.update-folder" />
+	<actiondef modulename="rssreader" actionname="savepermissions.folder" label="modules.rssreader.bo.useractionlogger.savepermissions-folder" />
+	<actiondef modulename="rssreader" actionname="delete.folder" label="modules.rssreader.bo.useractionlogger.delete-folder" />
+	<actiondef modulename="rssreader" actionname="move.feed" label="modules.rssreader.bo.useractionlogger.move-feed" />
+	<actiondef modulename="rssreader" actionname="move.folder" label="modules.rssreader.bo.useractionlogger.move-folder" />
+	<actiondef modulename="rssreader" actionname="insert.feed" label="modules.rssreader.bo.useractionlogger.insert-feed" />
+	<actiondef modulename="rssreader" actionname="update.feed" label="modules.rssreader.bo.useractionlogger.update-feed" />
+	<actiondef modulename="rssreader" actionname="activate.feed" label="modules.rssreader.bo.useractionlogger.activate-feed" />
+	<actiondef modulename="rssreader" actionname="deactivated.feed" label="modules.rssreader.bo.useractionlogger.deactivated-feed" />
+	<actiondef modulename="rssreader" actionname="reactivate.feed" label="modules.rssreader.bo.useractionlogger.reactivate-feed" />
+	<actiondef modulename="rssreader" actionname="delete.feed" label="modules.rssreader.bo.useractionlogger.delete-feed" />
+</script>

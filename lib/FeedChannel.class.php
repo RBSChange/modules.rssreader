@@ -45,26 +45,39 @@ class rssreader_FeedChannel
 		return array_slice($this->items, $start, $count);
 	}
 	
+	public function sliceItems($start = 0, $count = 0)
+	{
+		if ($start > 0 || $count > 0)
+		{
+			$this->items = array_slice($this->items, $start, $count);
+		}
+	}	
+	
 	public function get_feed_type()
 	{
 		return 'RSS';
 	}
 	
-	
-	public static function merge_items($channelArray)
+	/**
+	 * @param rssreader_FeedChannel[] $channelArray
+	 * @param string $title;
+	 * @return rssreader_FeedChannel
+	 */
+	public static function merge_items($channelArray, $title = null)
 	{
-		$items = null;
+		$finalChanel = null;
 		foreach ($channelArray as $channel) 
 		{
-			if ($items === null)
+			if ($finalChanel === null)
 			{
-				$items = $channel->items;
+				$finalChanel = $channel;
+				$finalChanel->title = $title;
 			}
 			else
 			{
-				$items = array_merge($items, $channel->items);
+				$finalChanel->items = array_merge($finalChanel->items, $channel->items);
 			}
 		}
-		return $items;
+		return $finalChanel;
 	}
 }

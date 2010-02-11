@@ -1,6 +1,16 @@
 <?php
-class rssreader_CheckFeedsAction extends rssreader_Action
+class rssreader_CheckFeedsAction extends f_action_BaseAction
 {
+	
+	/**
+	 * Returns the rssreader_FeedService to handle documents of type "modules_rssreader/feed".
+	 * @return rssreader_FeedService
+	 */
+	private function getFeedService()
+	{
+		return rssreader_FeedService::getInstance();
+	}
+	
 	
 	/**
 	 * @param Context $context
@@ -8,7 +18,6 @@ class rssreader_CheckFeedsAction extends rssreader_Action
 	 */
 	public function _execute($context, $request)
 	{
-		
 		//--------------------
 		// check a feed
 		if ($request->hasParameter('doCheck'))

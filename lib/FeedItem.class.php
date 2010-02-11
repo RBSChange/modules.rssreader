@@ -58,12 +58,17 @@ class rssreader_FeedItem
 		return $this->title;
 	}
 	
+	public function get_cropTitle()
+	{
+		return f_util_StringUtils::shortenString($this->title, 80);
+	}
+	
 	public function get_date()
 	{
 		return $this->date;
 	}
 	
-	public function get_local_date($format)
+	public function get_local_date($format = 'd/m/Y - H:i')
 	{
 		$date = date_Calendar::getInstance(date_Converter::convertDateToLocal($this->date));
 		return date_DateFormat::format($date, $format);

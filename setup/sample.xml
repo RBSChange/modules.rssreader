@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/website/persistentdocument/import/website_binding.xml" />
+	<binding fileName="modules/rssreader/persistentdocument/import/rssreader_binding.xml" />
+	
+	<rootfolder module="rssreader">
+		<folder id="rssfolder" byLabel="Exemples de flux rss">
+			<feed id="oscms" byLabel="Produit RBS Change" publicationstatus="ACTIVE"
+				url="http://www.rbschange.fr/rbs-change-product-feed.xml" cacheInHour="1" />
+			<feed byLabel="Actualités Ready Business System" publicationstatus="ACTIVE" 
+				url="http://www.rbs.fr/actualites/rss/flux-fr,11292,11911.xml" cacheInHour="1" />
+			<feed byLabel="Le Monde.fr : à la Une" publicationstatus="ACTIVE"
+				url="http://www.lemonde.fr/rss/une.xml" cacheInHour="1" />
+			<feed byLabel="Agence France-Presse : Quoi de neuf !" publicationstatus="ACTIVE"
+				url="http://www.afp.fr/afpcom/fr/content/newsrss" cacheInHour="1" />	
+		</folder>
+	</rootfolder>
+	
+	<website byTag="default_modules_website_default-website" template="tplOne">
+		<topic byLabel="Flux rss">			
+			<page byLabel="Liste de flux rss" isIndexPage="true" indexingstatus="false" navigationVisibility="hidden">
+				<changecontent for="content-block">
+					<changeblock type="modules_rssreader_folder" __cmpref-refid="rssfolder" 
+						__richcontent="none" 
+						__openwindow="false" 
+						__titleonly="false" 
+						__itemcount="10" 
+						__displayhome="false" 
+						__fusionfeeds="false" 
+						__foldertitle="" />
+				</changecontent>
+			</page>
+			<page byLabel="RBS Change Open Source" isIndexPage="false" indexingstatus="false" navigationVisibility="visible">
+				<changecontent for="content-block">
+					<changeblock type="modules_rssreader_feed" __cmpref-refid="oscms"  
+						__richcontent="none" 
+						__openwindow="false" 
+						__titleonly="false" 
+						__itemcount="10" 
+						__displayhome="false" />
+				</changecontent>
+			</page>				
+		</topic>
+	</website>
+</script>

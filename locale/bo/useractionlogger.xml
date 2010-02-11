@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="savepermissions-rootfolder">
+		<locale lang="fr">savepermissions.rootfolder {documentlabel}</locale>
+	</entity>
+	<entity id="log-savepermissions-rootfolder">
+		<locale lang="fr">log-savepermissions-rootfolder</locale>
+	</entity>
+	<entity id="insert-folder">
+		<locale lang="fr">insert.folder {documentlabel}</locale>
+	</entity>
+	<entity id="log-insert-folder">
+		<locale lang="fr">log-insert-folder</locale>
+	</entity>
+	<entity id="update-folder">
+		<locale lang="fr">update.folder {documentlabel}</locale>
+	</entity>
+	<entity id="log-update-folder">
+		<locale lang="fr">log-update-folder</locale>
+	</entity>
+	<entity id="savepermissions-folder">
+		<locale lang="fr">savepermissions.folder {documentlabel}</locale>
+	</entity>
+	<entity id="log-savepermissions-folder">
+		<locale lang="fr">log-savepermissions-folder</locale>
+	</entity>
+	<entity id="delete-folder">
+		<locale lang="fr">delete.folder {documentlabel}</locale>
+	</entity>
+	<entity id="log-delete-folder">
+		<locale lang="fr">log-delete-folder</locale>
+	</entity>
+	<entity id="move-feed">
+		<locale lang="fr">move.feed {destinationlabel} {documentlabel}</locale>
+	</entity>
+	<entity id="log-move-feed">
+		<locale lang="fr">log-move-feed</locale>
+	</entity>
+	<entity id="move-folder">
+		<locale lang="fr">move.folder {destinationlabel} {documentlabel}</locale>
+	</entity>
+	<entity id="log-move-folder">
+		<locale lang="fr">log-move-folder</locale>
+	</entity>
+	<entity id="insert-feed">
+		<locale lang="fr">insert.feed {documentlabel}</locale>
+	</entity>
+	<entity id="log-insert-feed">
+		<locale lang="fr">log-insert-feed</locale>
+	</entity>
+	<entity id="update-feed">
+		<locale lang="fr">update.feed {documentlabel}</locale>
+	</entity>
+	<entity id="log-update-feed">
+		<locale lang="fr">log-update-feed</locale>
+	</entity>
+	<entity id="activate-feed">
+		<locale lang="fr">activate.feed {documentlabel}</locale>
+	</entity>
+	<entity id="log-activate-feed">
+		<locale lang="fr">log-activate-feed</locale>
+	</entity>
+	<entity id="deactivated-feed">
+		<locale lang="fr">deactivated.feed {documentlabel}</locale>
+	</entity>
+	<entity id="log-deactivated-feed">
+		<locale lang="fr">log-deactivated-feed</locale>
+	</entity>
+	<entity id="reactivate-feed">
+		<locale lang="fr">reactivate.feed {documentlabel}</locale>
+	</entity>
+	<entity id="log-reactivate-feed">
+		<locale lang="fr">log-reactivate-feed</locale>
+	</entity>
+	<entity id="delete-feed">
+		<locale lang="fr">delete.feed {documentlabel}</locale>
+	</entity>
+	<entity id="log-delete-feed">
+		<locale lang="fr">log-delete-feed</locale>
+	</entity>
+</localization>

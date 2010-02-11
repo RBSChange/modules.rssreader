@@ -1,5 +1,5 @@
 <?php
-class rssreader_ClearRssCacheAction extends rssreader_Action
+class rssreader_ClearRssCacheAction extends f_action_BaseAction
 {
 	/**
 	 * @param Context $context

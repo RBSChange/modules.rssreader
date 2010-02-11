@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localization>
   <entity id="document-name">
-    <locale lang="fr">préférences</locale>
+    <locale lang="fr">Préférences du modules RSS externes</locale>
     <locale lang="de">Präferenzen</locale>
   </entity>
   <entity id="edition-form-title">
-    <locale lang="fr">Edition des préférences</locale>
+    <locale lang="fr">Préférences du modules RSS externes</locale>
     <locale lang="en">Settings edition</locale>
     <locale lang="de">Präferenzen bearbeiten</locale>
   </entity>
