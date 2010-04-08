@@ -1,6 +1,6 @@
 treechildren::-moz-tree-image(modules_rssreader_feed){
-	list-style-image: url(/icons/small/rss.png) ;
+	list-style-image: url(/changeicons/small/rss.png) ;
 }
 treechildren::-moz-tree-image(modules_rssreader_preferences){
-	list-style-image: url(/icons/small/rss.png) ;
+	list-style-image: url(/changeicons/small/rss.png) ;
 }
