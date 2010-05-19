@@ -3,7 +3,7 @@
   <name>rssreader</name>
   <type>change-module</type>
   <license>os</license>
-  <repository>private</repository>
+  <repository>public</repository>
   <version>3.0.2</version>
   <description>RSS externes</description>
   <dependencies>
