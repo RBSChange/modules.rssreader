@@ -16,7 +16,7 @@
 		</folder>
 	</rootfolder>
 	
-	<website byTag="default_modules_website_default-website" template="tplOne">
+	<website byTag="default_modules_website_default-website" template="webfactory/tplOne">
 		<topic byLabel="Flux rss">			
 			<page byLabel="Liste de flux rss" isIndexPage="true" indexingstatus="false" navigationVisibility="hidden">
 				<changecontent for="content-block">
