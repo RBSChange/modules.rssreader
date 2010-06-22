@@ -1,12 +1,8 @@
 <rights>
 	<actions>
 		<document name="rootfolder" />
-		<document name="folder">
-			<action name="Insert" back-office-name="createFolder"/>
-		</document>
-		<document name="feed">
-			<action name="Insert" back-office-name="createFeed"/>
-		</document>
+		<document name="folder" />
+		<document name="feed" />
 	</actions>
 
 	<roles>

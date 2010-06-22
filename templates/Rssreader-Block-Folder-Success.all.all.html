@@ -1,16 +1,16 @@
 <div tal:attributes="class params/classHome">
 	<tal:block tal:repeat="channel channels">
-		<h2 class="title" tal:content="channel/get_title">Channel Title</h2>
+		<h2 change:h="" tal:content="channel/get_title">Channel Title</h2>
 		<ol class="feedrss">
 			<li tal:repeat="item channel/get_items">
-				<h3 class="title">
-					<a class="link" tal:condition="not: params/openWindow" tal:attributes="href item/get_permalink" tal:content="item/get_cropTitle"/>
-					<a class="link popup" tal:condition="params/openWindow" tal:attributes="href item/get_permalink" tal:content="item/get_cropTitle" onclick="return accessiblePopup(this);"/>
+				<h3 change:h="">
+					<a class="link" tal:condition="not: params/openWindow" tal:attributes="href item/get_permalink">${item/get_cropTitle}</a>
+					<a class="link popup" tal:condition="params/openWindow" tal:attributes="href item/get_permalink" onclick="return accessiblePopup(this);">${item/get_cropTitle</a>
 				</h3>
 				<tal:block tal:condition="not: params/titleOnly">
-					<p tal:condition="item/get_date" tal:content="item->get_local_date()" class="date-feedrss" />
-					<p tal:condition="backoffice" tal:content="item/get_content_for_backoffice" class="content-feedrss"/>
-					<p tal:condition="not: backoffice" tal:content="item/get_content" class="content-feedrss"/>
+					<p tal:condition="item/get_date" class="date-feedrss">${item/get_local_date}</p>
+					<p tal:condition="backoffice" class="content-feedrss">${item/get_content_for_backoffice}</p>
+					<p tal:condition="not: backoffice" class="content-feedrss">${item/get_content}</p>
 				</tal:block>
 			</li>
 		</ol>

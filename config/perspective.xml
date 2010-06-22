@@ -78,7 +78,7 @@
 		<action name="createFeed" single="true" permission="Insert_feed" group="create_" icon="add" label="&amp;modules.rssreader.bo.actions.Create-Feed;" />
 		<action name="move" permission="Move" icon="up_down" label="&amp;modules.uixul.bo.actions.Move;" />
 		
-		<action name="clearRssCache" global="true" icon="data_delete" label="&amp;modules.rssreader.bo.actions.Clear-rss-cache;" />
-		<action name="checkFeeds" global="true" icon="step_run" label="&amp;modules.rssreader.bo.actions.Check-Feeds;" />		
+		<action name="clearRssCache" global="true" icon="reload" label="&amp;modules.rssreader.bo.actions.Clear-rss-cache;" />
+		<action name="checkFeeds" global="true" icon="check" label="&amp;modules.rssreader.bo.actions.Check-Feeds;" />		
 	</actions>
 </perspective>
