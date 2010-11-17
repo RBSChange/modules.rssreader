@@ -20,7 +20,7 @@ class rssreader_BlockFeedAction extends website_BlockAction
 			$BO = false;
 		}
 		
-		if (! $feed->isPublicated() && ! $this->isInBackoffice())
+		if (!$feed->isPublished() && !$this->isInBackoffice())
 		{
 			return website_BlockView::NONE;
 		}
