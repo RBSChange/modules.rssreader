@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.general.feed.detail" lcid="de_DE">
+  <key id="warning">Gefundener Feed, die spezifizierte Datei ist inexistent oder ungültig, aber Change hat den HauptFeed der angefragten 
+		Seite bestimmt.</key>
+  <key id="inexistant">Ungültiger Feed, die spezifizierte Datei ist inexistent oder die Webseite beinhaltet keinen RSS Feed.</key>
+</i18n>

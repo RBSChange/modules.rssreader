@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.mail" lcid="fr_FR">
+  <key id="subject">rapport de vérification des flux</key>
+  <key id="error">Erreurs détectées :</key>
+</i18n>

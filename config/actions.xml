@@ -17,12 +17,16 @@
 	<action name="clearRssCache">
 		<parameter name="listWidget" />
 		<body><![CDATA[
-  		var lang = Context.W_LANG;
-  		this.execute("ClearRssCache", "ClearRssCache", {lang: lang});
-  		alert("&modules.rssreader.bo.actions.Cache-deleted;");
+  		this.executeJSON("ClearRssCache", {lang: Context.W_LANG});
   	]]></body>
 	</action>
 
+	<action name="onClearRssCacheSuccess">
+		<parameter name="result" />
+		<body><![CDATA[
+		getController().alert(result.contents.message);
+  	]]></body>
+	</action>
 	<action name="checkFeeds">
 		<parameter name="listWidget" />
 		<body><![CDATA[

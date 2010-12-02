@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.blocks" lcid="en_GB">
+  <key id="rich-content-high">full</key>
+  <key id="rich-content-medium">medium</key>
+  <key id="rich-content-low">low</key>
+  <key id="rich-content-none">none</key>
+</i18n>

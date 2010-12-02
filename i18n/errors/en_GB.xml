@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.errors" lcid="en_GB">
+  <key id="modules-rssreader-getpreferencesdocument">you don't have the appropriate permission to perform this operation : ″Open preferences window″</key>
+  <key id="modules-rssreader-order">you don't have the appropriate permission to perform this operation : ″Sort out the elements″</key>
+  <key id="modules-rssreader-activate-feed">you don't have the appropriate permission to perform this operation : ″Activate a RSS feed″</key>
+  <key id="modules-rssreader-cancel-feed">you don't have the appropriate permission to perform this operation : ″Cancel a RSS feed″</key>
+  <key id="modules-rssreader-enabled">you don't have the appropriate permission to perform this operation : ″Access to the module″</key>
+</i18n>

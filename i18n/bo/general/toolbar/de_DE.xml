@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.general.toolbar" lcid="de_DE">
+  <key id="rich-content">Filterung des Inhalts:</key>
+  <key id="rich-content-high">komplett</key>
+  <key id="rich-content-medium">mittel</key>
+  <key id="rich-content-low">niedrig</key>
+  <key id="rich-content-none">kein</key>
+  <key id="display-home">Anzeige Startseite</key>
+  <key id="title-only">ausschliesslich die Titel</key>
+  <key id="open-window">Links in neuem Fenster</key>
+  <key id="fusion-feeds">Feeds fusionnieren</key>
+  <key id="item-count">Anzahl anzuzeigende Elemente:</key>
+  <key id="folder-title">Ordnertitel:</key>
+</i18n>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.errors" lcid="fr_FR">
+  <key id="modules-rssreader-getpreferencesdocument">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Ouvrir les préférences″</key>
+  <key id="modules-rssreader-order">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Modifier l'ordre des éléments″</key>
+  <key id="modules-rssreader-activate-feed">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Activer le flux RSS″</key>
+  <key id="modules-rssreader-cancel-feed">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Annuler le flux RSS″</key>
+  <key id="modules-rssreader-enabled">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Accès au module″</key>
+</i18n>

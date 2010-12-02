@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.general" lcid="en_GB">
+  <key id="module-name">external RSS</key>
+  <key id="tree-root-name">external RSS</key>
+  <key id="system-folder-name">external RSS</key>
+  <key id="feednotpublished">this feed is not published or is empty, it won't be displayed in frontoffice</key>
+  <key id="not-a-feed">document %d is not a feed !</key>
+  <key id="not-display-bo">this content can't be displayed in backoffice.</key>
+</i18n>

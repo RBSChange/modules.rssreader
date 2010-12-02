@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.blocks.folder" lcid="fr_FR">
+  <key id="richcontent">filtrage du contenu :</key>
+  <key id="richcontent-help">filtrage du contenu</key>
+  <key id="displayhome">affichage accueil</key>
+  <key id="displayhome-help">affichage accueil</key>
+  <key id="titleonly">uniquement les titres</key>
+  <key id="titleonly-help">uniquement les titres</key>
+  <key id="openwindow">liens dans une nouvelle fenêtre</key>
+  <key id="openwindow-help">liens dans une nouvelle fenêtre</key>
+  <key id="fusionfeeds">fusionner les flux</key>
+  <key id="fusionfeeds-help">fusionner les flux</key>
+  <key id="itemcount">nombre d'éléments à afficher :</key>
+  <key id="itemcount-hepl">nombre d'éléments à afficher</key>
+  <key id="foldertitle">titre du dossier :</key>
+  <key id="foldertitle-help">titre du dossier</key>
+</i18n>

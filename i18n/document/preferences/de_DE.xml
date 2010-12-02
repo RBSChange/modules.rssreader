@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.document.preferences" lcid="de_DE">
+  <key id="document-name">Präferenzen</key>
+  <key id="edition-form-title">Präferenzen bearbeiten</key>
+  <key id="contact">Empfänger der Prüfungen</key>
+  <key id="contact-help">Kontakt, welcher die von der Feedprüfung generierten E-mail bekommt</key>
+</i18n>

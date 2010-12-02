@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.errors" lcid="de_DE">
+  <key id="modules-rssreader-getpreferencesdocument">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Präferenzen öffnen″</key>
+  <key id="modules-rssreader-order">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Reihenfolge der Elemente ändern″</key>
+  <key id="modules-rssreader-activate-feed">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″RSS-Feed aktivieren″</key>
+  <key id="modules-rssreader-cancel-feed">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″RSS-Feed abbrechen″</key>
+  <key id="modules-rssreader-enabled">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Zugang zum Modul″</key>
+</i18n>

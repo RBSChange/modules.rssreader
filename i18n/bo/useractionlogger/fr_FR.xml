@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.useractionlogger" lcid="fr_FR">
+  <key id="savepermissions-rootfolder">savepermissions.rootfolder {documentlabel}</key>
+  <key id="log-savepermissions-rootfolder">log-savepermissions-rootfolder</key>
+  <key id="insert-folder">insert.folder {documentlabel}</key>
+  <key id="log-insert-folder">log-insert-folder</key>
+  <key id="update-folder">update.folder {documentlabel}</key>
+  <key id="log-update-folder">log-update-folder</key>
+  <key id="savepermissions-folder">savepermissions.folder {documentlabel}</key>
+  <key id="log-savepermissions-folder">log-savepermissions-folder</key>
+  <key id="delete-folder">delete.folder {documentlabel}</key>
+  <key id="log-delete-folder">log-delete-folder</key>
+  <key id="move-feed">move.feed {destinationlabel} {documentlabel}</key>
+  <key id="log-move-feed">log-move-feed</key>
+  <key id="move-folder">move.folder {destinationlabel} {documentlabel}</key>
+  <key id="log-move-folder">log-move-folder</key>
+  <key id="insert-feed">insert.feed {documentlabel}</key>
+  <key id="log-insert-feed">log-insert-feed</key>
+  <key id="update-feed">update.feed {documentlabel}</key>
+  <key id="log-update-feed">log-update-feed</key>
+  <key id="activate-feed">activate.feed {documentlabel}</key>
+  <key id="log-activate-feed">log-activate-feed</key>
+  <key id="deactivated-feed">deactivated.feed {documentlabel}</key>
+  <key id="log-deactivated-feed">log-deactivated-feed</key>
+  <key id="reactivate-feed">reactivate.feed {documentlabel}</key>
+  <key id="log-reactivate-feed">log-reactivate-feed</key>
+  <key id="delete-feed">delete.feed {documentlabel}</key>
+  <key id="log-delete-feed">log-delete-feed</key>
+</i18n>

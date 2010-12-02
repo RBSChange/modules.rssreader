@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.blocks.feed" lcid="en_GB">
+  <key id="richcontent">content filter:</key>
+  <key id="richcontent-help">content filter</key>
+  <key id="displayhome">home display</key>
+  <key id="displayhome-help">home display</key>
+  <key id="titleonly">only titles</key>
+  <key id="titleonly-help">only titles</key>
+  <key id="openwindow">links in new window</key>
+  <key id="openwindow-help">links in new window</key>
+  <key id="itemcount">number of item to display:</key>
+  <key id="itemcount-help">number of item to display</key>
+</i18n>

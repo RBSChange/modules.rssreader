@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.general.feed" lcid="de_DE">
+  <key id="unknow">nicht definiert</key>
+  <key id="supported">getragen</key>
+  <key id="inexistant">Feed inexistent</key>
+  <key id="warning">Warnung</key>
+</i18n>

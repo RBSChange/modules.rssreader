@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.actions" lcid="de_DE">
+  <key id="create_">neu...</key>
+  <key id="create-feed">neues Feed</key>
+  <key id="check-feeds">Feeds prüfen...</key>
+  <key id="clear-rss-cache">Cashes leeren</key>
+  <key id="cache-deleted">die Cashes wurden geleert</key>
+  <key id="regenerate-checked">angekreuzte Dokumente</key>
+  <key id="regenerate-selected">selektierte Dokumente</key>
+  <key id="regenerate-all">alle Dokumente</key>
+  <key id="check-link-confirm">Prüfungsbestätigung</key>
+  <key id="check-link-confirm-all">möchten Sie wirklich alle Dokumente prüfen?</key>
+  <key id="check-link-confirm-checked-or-all">möchten Sie die angekreuzten oder alle Dokumente prüfen?</key>
+  <key id="check-link-confirm-selected-or-all">möchten Sie die selektierten oder alle Dokumente prüfen?</key>
+  <key id="check-link-confirm-checked-or-selected-or-all">möchten Sie prüfen</key>
+</i18n>

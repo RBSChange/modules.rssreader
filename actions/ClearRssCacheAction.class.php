@@ -1,5 +1,5 @@
 <?php
-class rssreader_ClearRssCacheAction extends f_action_BaseAction
+class rssreader_ClearRssCacheAction extends f_action_BaseJSONAction
 {
 	/**
 	 * @param Context $context
@@ -8,6 +8,6 @@ class rssreader_ClearRssCacheAction extends f_action_BaseAction
 	public function _execute($context, $request)
 	{
 		rssreader_FeedService::getInstance()->clearAllRssFilesCache();
-		return self::getSuccessView();
+		return $this->sendJSON(array('message' => LocaleService::getInstance()->transBO('m.rssreader.bo.actions.cache-deleted')));
 	}
 }

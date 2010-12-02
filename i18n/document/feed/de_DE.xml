@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.document.feed" lcid="de_DE">
+  <key id="document-name">Feed</key>
+  <key id="label">Name</key>
+  <key id="url">URL</key>
+  <key id="cacheinhour">Stundenanzahl Cache</key>
+  <key id="cacheinhour-help">bestimmt die Stundenanzahl während der der Feed im Cache aufbewart wird, 0 oder nicht definiert bedeutet kein Cache</key>
+</i18n>

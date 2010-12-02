@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.bo.general.feed.detail" lcid="fr_FR">
+  <key id="warning">Flux découvert, le fichier spécifié n'existe pas ou n'est pas valide mais Change a déterminé le flux principal du site demandé.</key>
+  <key id="inexistant">Flux invalide, le fichier spécifié n'existe pas et le site ne contient pas de flux RSS.</key>
+</i18n>

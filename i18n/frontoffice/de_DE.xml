@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.rssreader.frontoffice" lcid="de_DE">
+  <key id="feedinvalid">der angefragte Feed ist ungültig.</key>
+</i18n>
