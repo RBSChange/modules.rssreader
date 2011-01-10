@@ -4,7 +4,7 @@
 		<li tal:repeat="item channel/get_items">
 			<h3 change:h="">
 				<a class="link" tal:condition="not: params/openWindow" tal:attributes="href item/get_permalink">${item/get_cropTitle}</a>
-				<a class="link popup" tal:condition="params/openWindow" tal:attributes="href item/get_permalink" onclick="return accessiblePopup(this);">${item/get_cropTitle</a>
+				<a class="link popup" tal:condition="params/openWindow" tal:attributes="href item/get_permalink" onclick="return accessiblePopup(this);">${item/get_cropTitle}</a>
 			</h3>
 			<tal:block tal:condition="not: params/titleOnly">
 				<p tal:condition="item/get_date" class="date-feedrss">${item/get_local_date}</p>
