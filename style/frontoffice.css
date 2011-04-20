@@ -1,10 +1,10 @@
-.feed-not-published{
+.modules-rssreader .feed-not-published{
 	background: #ff8888;
 	color: red;
 	border: 1px solid red;
 	padding: 5px;
 }
-ol.feedrss li{
+.modules-rssreader ol.feedrss li{
 	width: 100%;
 	padding: 10px 0;
 	clear: left;
