@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.rssreader.bo.general" lcid="fr_FR">
-  <key id="module-name">RSS externes</key>
-  <key id="tree-root-name">RSS externes</key>
-  <key id="system-folder-name">RSS externes</key>
+  <key id="module-name">Syndication RSS</key>
+  <key id="tree-root-name">Syndication RSS</key>
+  <key id="system-folder-name">Syndication RSS</key>
   <key id="feednotpublished">ce flux n'est pas publié ou est vide, il ne sera pas visible en frontoffice</key>
   <key id="not-a-feed">document %d n'est pas un flux !</key>
   <key id="not-display-bo">ce contenu n'est pas affichable en backoffice.</key>
