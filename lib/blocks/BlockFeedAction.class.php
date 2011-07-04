@@ -10,17 +10,14 @@ class rssreader_BlockFeedAction extends website_BlockAction
 	 */
 	function execute($request, $response)
 	{
-		$feed = $this->getDocumentParameter();
-		if ($this->isInBackoffice() || $this->getContext()->getGlobalRequest()->getParameter('action') == 'PreviewPage')
+		$feed = $this->getDocumentParameter();		
+		if ($feed === null)
 		{
-			$BO = true;
-		}
-		else
-		{
-			$BO = false;
+			return website_BlockView::NONE;
 		}
 		
-		if (!$feed->isPublished() && !$this->isInBackoffice())
+		$BO = ($this->isInBackoffice());	
+		if (!$feed->isPublished() && !$BO)
 		{
 			return website_BlockView::NONE;
 		}

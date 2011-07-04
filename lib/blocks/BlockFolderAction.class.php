@@ -18,14 +18,8 @@ class rssreader_BlockFolderAction extends website_BlockAction
 			return website_BlockView::NONE;
 		}
 		
-		if ($this->isInBackoffice() || $this->getContext()->getGlobalRequest()->getParameter('action') == 'PreviewPage')
-		{
-			$BO = true;
-		}
-		else
-		{
-			$BO = false;
-		}
+		$BO = $this->isInBackoffice();
+		
 		$params = array();
 		$params['richContent'] = $this->getConfiguration()->getRichcontent();
 		$params['titleOnly'] = $this->getConfiguration()->getTitleonly();
@@ -38,7 +32,7 @@ class rssreader_BlockFolderAction extends website_BlockAction
 		$fs = rssreader_FeedService::getInstance();
 		foreach ($feeds as $feed)
 		{
-			if ($feed->isPublished() || $this->isInBackoffice())
+			if ($feed->isPublished() || $BO)
 			{
 				$url = $feed->getUrl();
 				$params['cache'] = $feed->getCacheInHour();
